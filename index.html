@@ -1,31 +1,73 @@
 <!DOCTYPE html>
-Hola
-<!--- esto es un comentario-->
-<p>Soy un Párrafo</p>
-<a> Soy un Link</a>
-<br><b>Estoy en Negrita</b>
-
-<!--- Atributos -->
-<a href="http://www.google.com"> Link a Google</a>
-
-
-<!-- Estructura básica -->
+<html lang="en">
 <head>
-<!-- Esto lo ve el Browser solamente-->
-    <tile>Clase 1 - html</tile>
-    <!-- Clase de CSS (esto sería "in line")-->
-    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </style>
-</head>
-<body>
-<!-- Esto la ve el usuario-->
     <link rel="stylesheet" href="./styles/styles.css">
-    <h1 class="parrafo" href="./styles/styles.css" >Título Principal</h1>
-    <p id="subtitulo">Parrafo 1</p>
-    <a href="http://www.google.com"> Link a Google</a>
+
+    <link rel="icon" type="image/pgn" sizes="16x16" href="./favicon">
+    <title>Clase 1 -html</title>
     <img src="">
 
-    <h3 id="conejo" class="conejo" style=""></h3>
+    <!-- Importar las fuentes-->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="header_logo">    
+            <a ref="#" class="header_logo">
+            <i class="fa-solid fa-film"></i>CAC - MOVIES
+            </a>
+        </div>
+        <div class="header_menu">
+            <a href="">Tendencias</a>
+            <a href="">Registrate</a>
+            <a href="" id="header_menu_login">Iniciar Sesión</a>
+        </div>
+    </header>
+    <main>
+        <!-- imagen de fondo con los titulos y botones-->
+        <section class="main">
+            <h1 class="main_titulo ubuntu-bold">Peliculas y Series ilimitadas <br>en un solo lugar</h1>
+            <h2 class="main_subtitulo ubuntu-medium">Disfrutá donde quieras.<br> Cancela en cualquier momento. </h2>
+            <button class="main_btn-registrarse">Registrarse</button>
+        </section>
+        <section class="form-busqueda">
+            <h2>¿Qué estás buscando ver?</h2>
+            <form action="./html/resultado-busqueda.html">
+                <input type="search" placeholder="Buscar...">
+                <button>
+                    Buscar
+                </button>
+        
+            </form>
+
+            <hr>
+        </section>
+        <section class="flex-container">
+            <div>
+                <h4>1</h4>
+            </div>
+            <div>
+                <h4>2</h4>
+            </div>
+            <div>
+                <h4>3</h4>
+            </div>
+        </section>
+          
+    </main>
+    <a href="#header"><i class="fa fa-arrow-circle-o-up fa-lg" id="goBack" aria-hidden="true"></i></a>
+
+    <script src="https://kit.fontawesome.com/ed3dcb4315.js" crossorigin="anonymous"></script>
 </body>
+</html>
