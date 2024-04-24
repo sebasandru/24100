@@ -1,0 +1,320 @@
+/*
+Comentario válido en Css
+*/
+
+p{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+#tablas{
+
+    text-decoration: none;
+    color: brown;
+    /* */
+}
+.parrafo{
+    color:green;
+}
+
+/*
+Selector por id
+*/
+
+#subtitulo{
+    color:rgb(228, 241, 37);
+}
+
+/*
+Comentario válido en Css
+    margin: 0;
+    padding: 0;
+
+    inline > id> class> tipo
+    important;
+    https://fontawesome.com/ <- Iconos 
+    https://boxicons.com/ <- Iconos
+    https://www.w3schools.com/graphics/svg_intro.asp
+*/
+
+.prueba{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conejo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+mobile first -> Diseño pensado para telefono celular
+*/
+
+/*Definir variables*/
+
+.main { 
+
+    background-image: linear-gradient(to right top, #0000008a, #0000008a ),
+    url(../banner-bg.jpg);
+    background-size: 75vh;
+    background-position: center; 
+    background-size:cover;
+    height: 75vh; /*ph/vh/vw/%  las v son relativas al viewport (dispositivo)*/  
+    width: 100vw;
+    text-align: center;
+
+}
+
+.main_btn-registrarse{
+ 
+    text-decoration: none;
+    padding: 15px;
+    background-color: var(--rojo);
+    color:var(--texto-blanco);
+    border-radius: 10px;
+    
+    
+}
+
+
+    /*Modelo de Caja - sin 
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    */
+
+/*
+header {
+
+    border: 5px solid black;
+    padding: 35px;
+    width: 90vw;
+    box-sizing: content-box; /* content-box y  border-box (se tiene en cuenta border/paddin/... en el tamaño */
+
+*/
+/*
+header li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+*/
+.menu{
+background-color: rgb(194, 214, 238);
+}
+
+header{
+    background-color: var(--rojo);
+    border: 3px solid black ;
+    height: 10vh;
+    width: 100vw;
+}
+.header_logo{
+    border: 10px solid black; 
+    display: inline-block;
+    align-content: center;
+    color: #ffffff;
+    border: 1px;
+    height: 10vh;
+    width: 55vw;
+}
+.header_menu{
+    border: 10px solid black;
+    display: inline-block;
+    text-align: justify;
+    border: 1px;
+    padding-top: 2vh;
+    width: 100vh;
+      
+}
+
+.main_titulo{
+    margin-top: 0;
+    padding-top: 3;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+  
+}
+
+.main_subtitulo{
+    margin-bottom: 5vh;  
+    color: #ffffff;  
+}
+
+
+.header_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: right;
+}
+
+#header_menu_login{
+    background: black;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+/* FUENTES */
+
+h1 {
+    color: var(--texto-blanco) !important;
+    font-size: 1.17em; /* */
+    
+}
+
+h3 {
+    color:green;
+    font-size: 1.17em; /* */
+    
+}
+
+
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 20;
+    font-size: 50;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+  }
+
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  :root {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --rojo: #9f3647; 
+    --texto-blanco: #ffffff;
+    --fondo-negro: #0a0a0a;
+    --gris: #808080; 
+    --color-primario: #9f3647;
+    scroll-behavior: smooth
+
+  }
+
+  /*Estilos formulario de búsqueda */
+
+  .form-busqueda {
+
+    background-color: var(--fondo-negro);
+    color: var(--texto-blanco);
+    height: 50vh;
+    padding-top: 15vh;
+    text-align: center;
+  }
+
+  /* Selectores avanzados */
+
+  .form-busqueda h2{
+    font-size: 2rem;
+  }
+
+  .form-busqueda form{
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+  }
+
+  .form-busqueda input{
+    border-radius: 20px;
+    padding: 10px 10px; /* Se pueden poner los cuatro (Top-right-botton-left) "10 px 10x 10x 10x" o dos también (top-botton right-left) */
+    border: none;
+    color: var(--gris);
+    width: 400px;
+    outline: 0px;    
+  }
+
+  .form-busqueda button{
+    color: var(--texto-blanco);  
+    border-radius: 20px;
+    padding: 10px 10px;
+    min-width: 10vw;
+    border: 2px solid var(--texto-blanco);
+    background-color: var(--rojo);
+    margin-left: 1vh;
+
+  }
+
+  .form-busqueda hr{
+    
+    width: 70vw;
+    margin: 0 auto; /*una forma de centrar / text-align:center / */
+    border: 1px solid var(--color-primario);
+  }
+
+  .form-busqueda form button:hover { /*Crea una especie de animación al tocar el objeto*/
+    width: 10.5vw;    
+  }
+
+  /*agrupados
+  
+  p,h1,h2,h3{
+    color: blue;
+}
+Le aplica a todos los nombrados
+  
+  */
+
+ /*hijos directos  
+ section > h2 {
+    color: blue;
+}
+Le aplica a hijos/nietos/...  
+  */
+
+   /*hermanos adyacentes +
+ input + button {
+    color: blue;
+}
+Le aplica a hermanos (los que están al mismo noviel serían)...  
+
+   /*hermanos generales ~
+ form ~ h2 {
+    color: blue;
+}
+Le aplica a hermanos (los que están al mismo noviel serían)...  
+
+  */
+
+  #goBack{
+    color: var(--gris);
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    scroll-behavior: smooth; 
+  }
+
+
+.flex-container{
+  height: 20vh;
+  background-color: aqua;
+  display: flex; /*row|row-reverse|column|column-reverse*/
+  justify-content: ;/*main axis|space_around|space-between*/
+  flex-wrap: nowrap; /*rap */
+
+}
+.flex-container div{
+  
+  width: 500px;
+  
+}
